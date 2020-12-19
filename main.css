@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.tabMenuItem {
+    text-align: center;
+    margin: 2em;
+    font-size: 3ch;
+}
+.menuItem{
+    padding: 3mm;
+}
+a{
+    text-decoration: none;
+}
