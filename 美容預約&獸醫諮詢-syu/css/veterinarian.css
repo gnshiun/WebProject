@@ -1,0 +1,54 @@
+.main{
+    margin-top: 150px;
+}
+.intro__area{
+    background-color:linen;
+    font-size: 24px;
+    height: 350px;
+}
+.nameTitle{
+    text-align: center;
+}
+.exp{
+    line-height: 150%;
+    text-align: center;
+}
+.items{
+    list-style: outside url(../images/footprint24.png);
+    display: inline-block;
+    text-align: left;
+    list-style-position: inside;
+}
+/* .items li{
+    list-style: none;
+    list-style-type: none;
+    background-image: url(../images/paw-print128.png);
+    background-size: 36px 36px;
+    background-repeat: no-repeat;
+    text-indent : 48px
+} */
+.figure__area{
+    text-align: center;
+    background-color:moccasin;
+    height: 350px;
+}
+.figp{
+    width:300px;
+    height:300px;
+    display: inline-block;
+
+}
+.figw{
+    background-color: lightsteelblue;
+    line-height: 200%;
+}
+.link__area{
+    background-color:powderblue;
+    text-align: center;
+}
+.link__area a:link{
+    text-decoration: none;
+}
+.link__area a:hover{
+    background-color:pink;
+}
