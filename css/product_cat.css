@@ -24,7 +24,7 @@
     display:inline-block;
     vertical-align:top;
     text-align:center;
-    line-height:20px;
+    line-height:23px;
     border: 2px dashed red;
 }
 .figure{
@@ -32,6 +32,10 @@
     height:150px;
     border: 2px dashed black;
     margin:0px;
+}
+
+@media screen and (max-width:1000px){
+    .content{width:100%;text-align: center;}
 }
 
 @media screen and (max-width:600px){
