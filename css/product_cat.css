@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.head{
+    background-color: #003344;
+    color: white;
+    font-weight: bold;
+    font-size:30px;
+    text-align:center;
+    padding:10px;
+}
+.content{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    /* border:1px solid red;
+    height:100px; */
+}
+.box{
+    width:280px;
+    height:200px;
+    padding:10px;
+    margin:10px;
+    background-color:white;
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;
+    line-height:20px;
+    border: 2px dashed red;
+}
+.figure{
+    width:150px;
+    height:150px;
+    border: 2px dashed black;
+    margin:0px;
+}
+
+@media screen and (max-width:600px){
+    .content{width:100%;text-align: center;}
+}
