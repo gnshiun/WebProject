@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>寵物美容預約</title>
+    <title>寵物美容預約test</title>
     <!-- CSS LINK -->
         <link rel="stylesheet" href="css/reservation.css">
         <link id="bs-css" rel="stylesheet" href="css/bootstrap-gridsystem.min.css">
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <!-- DatePicker -->
-        <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
     <!-- JS LINK-->
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <!-- DatePicker -->
-        <script src="js/bootstrap-datepicker.min.js"></script>
-        <script src="js/bootstrap-datepicker.zh-TW.js" charset="UTF-8"></script>
+        <script src="js/jquery-ui.js"></script>
         <!-- Own -->
-        <script src="js/dp-main.js"></script>
+        <script src="js/r_dp.js"></script>
 </head>
 
 <body>
@@ -38,10 +37,11 @@
                 <h4 class="greet">______先生/小姐 您好</h4>
                 <div class="itema">
                     <div class="rDate" >
-                        請選擇日期：
+                        <label for="rDate">請選擇日期：</label>
                         <div id="sandbox-container">
-                            <input type="text" class="form-control" placeholder="yyyy-mm-dd">
+                            <input type="text" class="form-control" placeholder="yyyy-mm-dd" id="rDate">
                         </div>
+                        *注意事項:僅開放一個月內之預約
                     </div>
                     <div class="rTime">
                         <label for="rTime">請選擇時間：</label>
