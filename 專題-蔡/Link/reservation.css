@@ -1,0 +1,35 @@
+.main{
+    margin-top: 150px;
+}
+.reservation__area{
+    background-color:thistle;
+    line-height: 200%;
+    text-align: center;
+}
+.itema{
+    display: inline-block;
+    text-align: left;
+}
+.rTime optgroup{
+    color: rgb(170, 170, 170);
+}
+.rSelect optgroup{
+    color: rgb(170, 170, 170);
+}
+.pet__area{
+    background-color:  cornsilk;
+    line-height: 200%;
+    text-align: center;
+}
+.itemb{
+    display: inline-block;
+    text-align: left;
+}
+textarea{
+    width:255px;
+    height:120px;
+}
+.check__area{
+    background-color: gainsboro;
+    text-align: center;
+}

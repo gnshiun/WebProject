@@ -1,0 +1,104 @@
+*{
+       /*border : solid 2px black;*/
+      font-family: "微軟正黑體";
+    }
+    .menuBox{
+       position: fixed;
+       top: 20px;
+       right: 800px;
+       font-size: 2ch;
+    }
+    a{
+      text-decoration : none;
+      color: #ccc;
+    }
+    .tabMenuItem {
+        position: fixed;
+        top : 38px;
+        right : 620px;
+        font-size: 2.5ch;
+    }
+    .menuItem{
+        padding: 3mm;
+        ransition : 1s;
+    }
+    .menuItem:hover{
+      border : solid 1px #ccc;
+    }
+    .buttons{
+      display: fixed;
+      justify-content: space-between;
+      padding-left : 10px;
+      padding-top : 10px;
+    }
+    .ShoppingCart{ 
+      position : fixed;
+      top : 40px;
+      right : 55px;
+    /*   float : right;
+      padding-top : 25px;
+      padding-right :10px; */
+    }
+    .Member{
+      position : fixed;
+      top : 39px;
+      right : 90px;
+    /*   float :right;
+      padding-top : 25px;
+      padding-right :10px; */
+    }
+    .Logo{
+      position : fixed;
+      top : 220px;
+      right : 220px;
+    }
+    .From{
+      position : fixed;
+      bottom : 300px;
+      right : 550px;
+    }
+    .Name1{
+      font-weight:bolder;
+      position : fixed;
+      bottom : 100px;
+      left : 250px;
+    }
+    .buttons2{
+      margin-top : 30px;
+    }
+    .buttons2 .btn{
+      display: inline-block;
+      padding : 10px 25px;
+      letter-spacing : 2px;
+    }
+    .btnNews{
+      float : left;
+    }
+    .btnNews2{
+      float : right;
+    }
+    .btnNews{
+      background-color: dimgrey;
+      color: #fff;
+      border : solid 2px #ccc;
+      transition : 0.5s;      
+    }
+    .btnNews:hover{
+      background-color: #eee;
+    }
+    .btnNews2{
+      background-color:dimgrey ;
+      color: #fff;
+      border : solid 2px #ccc;
+      transition : 0.5s;
+      margin-right: 100px;
+    }
+    .btnNews2:hover{
+      background-color: #eee;
+    }
+    .Slogan{
+      color: #ccc;
+    }
+    .Slogan2{
+      left: 200px;
+    }
