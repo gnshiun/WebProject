@@ -10,6 +10,21 @@
     text-align:center;
     padding:10px;
 }
+/* 購物車浮動按鈕 */
+.cart{
+	border-radius: 10%;
+	/* background: #fee528; */
+    position: fixed;
+    text-align: center;
+	right:20px;
+	bottom: 20px;
+    z-index: 10;
+    border: 2px dashed red;
+}
+.cart img{
+    height: 85px;
+    width: 85px;
+}
 /* 箱子最外層 */
 .content{
     width:1000px;
@@ -39,9 +54,14 @@
     margin:0px;
 }
 /* 自適應區塊 */
-@media screen and (max-width:1000px){
-    .content{width:100%;text-align: center;}
+@media screen and (max-width:1200px){
+    .content{width:86%;text-align: center;}
 }
-@media screen and (max-width:600px){
-    .content{width:100%;text-align: center;}
+@media screen and (max-width:880px){
+    .content{
+        width:80%;
+        text-align: center;
+        margin-left: 5%;
+        margin-right:auto;
+    }
 }
