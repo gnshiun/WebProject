@@ -12,18 +12,23 @@
 }
 /* 購物車浮動按鈕 */
 .cart{
-	border-radius: 10%;
+	/* border-radius: 10%; */
 	/* background: #fee528; */
     position: fixed;
     text-align: center;
+    padding: 0px;
 	right:20px;
 	bottom: 20px;
     z-index: 10;
     border: 2px dashed red;
 }
+.cart button{
+    margin-bottom: 8px;
+}
 .cart img{
     height: 85px;
-    width: 85px;
+    width: 85px; 
+    /* border: 2px dashed black; */
 }
 /* 箱子最外層 */
 .content{
@@ -37,8 +42,10 @@
 /* 每個箱子裝一個產品 */
 .box{
     width:280px;
-    height:215px;
-    padding:10px;
+    height:225px;
+    padding-top: 0px;
+    padding-left:10px;
+    padding-right: 10px;
     margin:10px;
     background-color:white;
     display:inline-block;

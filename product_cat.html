@@ -14,10 +14,18 @@
     <div class="head">head</div>
 
     <div class="cart">
-        <a href="#">
-            <img src="images/購物車.jpg">
-        </a>
-        <div>結帳去</div>
+        <div id="itemBox"></div>
+        <div>
+            <a href="#">
+                <img src="images/cart.png">
+            </a>
+        </div>
+        <div>
+            <button onclick="addElementDiv('itemBox')">顯示</button>
+        </div>
+        <div>
+            <button onclick="clearItem('itemBox')">清空</button>
+        </div>
     </div>
 
     <div class="content">
@@ -64,7 +72,7 @@
             </div>
             <div class="prod_name">貓砂</div>
             <div class="prod_price">$150</div>
-            <button onclick="addToCart('貓砂','50')">加入購物車</button>
+            <button onclick="addToCart('貓砂','150')">加入購物車</button>
         </div>
 
         <div class="box">
