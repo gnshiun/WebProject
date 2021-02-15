@@ -1,7 +1,15 @@
-*{
+   *{
        /*border : solid 2px black;*/
       font-family: "微軟正黑體";
     }
+    /* @media screen and (min-width:100px){
+     .Logo{
+       width: 320px;
+     }
+     .Name1{
+      width: 500px;
+     }
+    } */
     .menuBox{
        position: fixed;
        top: 20px;
