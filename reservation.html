@@ -19,108 +19,108 @@
         <!-- Own -->
         <script src="js/r_dp.js"></script>
 		<script language="javascript">
-            function show_money()
-                {
-                    var opSelect=document.getElementById("rSelect").value;
-                    switch(opSelect){
-                        case "a1":
-                        case "a2":
-                            opMoney="$100";
-                            break;
-                        case "a3":
-                        case "a4":
-                        case "a5":
-                            opMoney="$200";
-                            break;
-                        case "b1":
-                        case "b2":
-                        case "b3":
-                        case "b4":
-                            opMoney="$250";
-                            break;
-                        case "c1":
-                            opMoney="$400";
-                            break;
-                        case "c2":
-                            opMoney="$600";
-                            break;
-                        case "c3":
-                            opMoney="$800";
-                            break;
-                        default:
-                            opMoney="$";
-                            break;
-                    }
-                    document.getElementById("rSum").innerHTML='<font color="red">'+opMoney+'</font>';
-                }
-            function check()
-                {
-                    var data=document.rForm.rDate.value;
-                    if(data.length==0){
-                        alert('尚未選擇日期');
-                        document.rForm.rDate.focus();
-                        return false;
-                    }
+            function show_money() {
+				var opSelect = document.getElementById("rSelect").value;
+				switch (opSelect) {
+				case "a1":
+				case "a2":
+					opMoney = "$100";
+					break;
+				case "a3":
+				case "a4":
+				case "a5":
+					opMoney = "$200";
+					break;
+				case "b1":
+				case "b2":
+				case "b3":
+				case "b4":
+					opMoney = "$250";
+					break;
+				case "c1":
+					opMoney = "$400";
+					break;
+				case "c2":
+					opMoney = "$600";
+					break;
+				case "c3":
+					opMoney = "$800";
+					break;
+				default:
+					opMoney = "$";
+					break;
+				}
+				document.getElementById("rSum").innerHTML = '<font color="red">'
+						+ opMoney + '</font>';
+			}
+			function check() {
+				var data = document.rForm.rDate.value;
+				if (data.length == 0) {
+					alert('尚未選擇日期');
+					document.rForm.rDate.focus();
+					return false;
+				}
 
-                    var data2=document.rForm.rTime.value;
-                    if(data2==0){
-                        alert('尚未選擇時間');
-                        document.rForm.rTime.focus();
-                        return false;
-                    }
+				var data2 = document.rForm.rTime.value;
+				if (data2 == 0) {
+					alert('尚未選擇時間');
+					document.rForm.rTime.focus();
+					return false;
+				}
 
-                    var data3=document.rForm.rSelect.value;
-                    if(data3==0){
-                        alert('尚未選擇方案');
-                        document.rForm.rSelect.focus();
-                        return false;
-                    }
+				var data3 = document.rForm.rSelect.value;
+				if (data3 == 0) {
+					alert('尚未選擇方案');
+					document.rForm.rSelect.focus();
+					return false;
+				}
 
-                    var data4=document.rForm.pKind;
-                    var pKind=false;
-                    for(var i=0 ;i<data4.length;i++)
-                    {
-                        if(data4[i].checked)
-                        {
-                        pKind=true;
-                        }
-                    }
-                        if(!pKind)
-                        {
-                        alert('尚未選取寵物種類');
-                        document.rForm.pKind.focus();
-                        return false;
-                        }
-                    
-                    var data5=document.rForm.pAge.value;
-                    if(data5.length==0){
-                        alert('請輸入寵物年紀');
-                        document.rForm.pAge.focus();
-                        return false;
-                    }
-                    if(!data5.match(/^[0-9]+$/)){
-                        alert('寵物年紀格式錯誤，請輸入數字');
-                        document.rForm.pAge.focus();
-                        return false;
-                    }
+				var data4 = document.rForm.pKind;
+				var pKind = false;
+				for (var i = 0; i < data4.length; i++) {
+					if (data4[i].checked) {
+						pKind = true;
+					}
+				}
+				if (!pKind) {
+					alert('尚未選取寵物種類');
+					document.rForm.pKind.focus();
+					return false;
+				}
 
-                    var data6=document.rForm.pGender;
-                    var pGender=false;
-                    for(var i=0 ;i<data6.length;i++)
-                    {
-                        if(data6[i].checked)
-                        {
-                            pGender=true;
-                        }
-                    }
-                        if(!pGender)
-                        {
-                        alert('尚未選取寵物性別');
-                        document.rForm.pGender.focus();
-                        return false;
-                        }
-                    
-                }
+				var data5 = document.rForm.pAge.value;
+				if (data5.length == 0) {
+					alert('請輸入寵物年紀');
+					document.rForm.pAge.focus();
+					return false;
+				}
+				if (!data5.match(/^[1-2]?[0-9]$/)) {
+					alert('寵物年紀格式錯誤，請重新輸入數字');
+					document.rForm.pAge.focus();
+					return false;
+				}
+
+				var data6 = document.rForm.pGender;
+				var pGender = false;
+				for (var i = 0; i < data6.length; i++) {
+					if (data6[i].checked) {
+						pGender = true;
+					}
+				}
+				if (!pGender) {
+					alert('尚未選取寵物性別');
+					document.rForm.pGender.focus();
+					return false;
+				}
+				
+				var data7 = document.rForm.pName.value;
+				if (data7.length == 0) {
+					alert('請輸入寵物名字');
+					document.rForm.pName.focus();
+					return false;
+				}
+				document.rForm.submit();
+			}
         </script>
 		
 		
@@ -224,7 +224,7 @@
             </section>
 
             <section class="check__area col-md-10 col-md-offset-1 col-xs-12">
-                <input type="submit" value="送出資料" onClick="return check()">
+                <input type="button" value="送出資料" onClick="return check()">
                 <input type="reset" value="重置">
             </section>
 			</form>

@@ -8,9 +8,7 @@
 
   <body>
     <%
-    request.setCharacterEncoding("utf-8");
-//    response.setContentType("text/html;charset=utf-8");
-//    PrintWriter out=response.getWriter();	   
+    request.setCharacterEncoding("utf-8");   
     String rDate = request.getParameter("rDate");
     String rTime = request.getParameter("rTime");
     String rSelect = request.getParameter("rSelect");
@@ -37,11 +35,11 @@
     int flag = stmt.executeUpdate(sql);
     if(flag != 0)
     {
-    	 out.println("<script>alert('新增成功！');history.go(-1);</script>");
+    	 out.println("<script>alert('預約成功！');history.go(-1);</script>");
     }
     else
     {
-    	 out.println("<script>alert('新增失敗！');history.go(-1);</script>");
+    	 out.println("<script>alert('預約失敗！');history.go(-1);</script>");
     }
     stmt.close(); 
     dbCon.close(); 
