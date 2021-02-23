@@ -1,53 +1,83 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>會員管理</title>
-    <link rel="stylesheet" href="css/bootstrap-gridsystem.min.css">
-    <link rel="stylesheet" href="css/Member.css">
-  
+<title>會員註冊畫面</title>
+ <!-- Meta-Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Estate Register Form a Responsive Web Template, Bootstrap Web Templates, Flat Web Templates, Android Compatible Web Template, Smartphone Compatible Web Template, Free Webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design">
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //Meta-Tags -->
+	
+	<!-- css files -->
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/Member.css" rel="stylesheet" type="text/css" media="all"/>
+	<!-- //css files -->
+	
+	<!-- google fonts -->
+	<link href="//fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900" rel="stylesheet">
+	<!-- //google fonts -->
 	
 </head>
 <body>
-    <div class="buttons">
-        <div>
-      <a href="http://127.0.0.1:5500/HomePage.html" target="_blank">
-        <img src="images/寵物logo.png" alt="返回主頁" width="100"></a>
-          </div>
-        <div class="Member">
-      <a href="#" target="_blank">
-        <img src="images/會員登入.jpg" alt="連結到會員管理" width="25"></a>
-          </div>
-        <div class="ShoppingCart">
-          <a href="#" target="_blank">             
-        <img src="images/購物車.jpg" alt="連結到購物車" width="25"></a>
-        </div>
-         </div>
-         <div class="menuBox">
-            <div class="tabMenuItem" >
-                <span class="menuItem" style="font-size: 15px;"><a href='#'>喵星人</a></span>
-                <span class="menuItem" style="font-size: 15px;"><a href='#'>汪星人</a></span>
-                <span class="menuItem" style="font-size: 15px;"><a href='reservation.html'>美容預約</a></span>
-                <span class="menuItem" style="font-size: 15px;"><a href='veterinarian.html'>獸醫諮詢</a></span>
-            </div>
-        </div>
-		<div class="container-fluid main">
-		  <div class="row">
-          <div class="Form col-md-4 col-md-offset-4 col-xs-12">
-          <form>
-            <p>帳號:<input type="text" name="acount"></p>
-            <p>密碼:<input type="text" name="passwd"></p>
-            <p>姓名:<input type="text" name="name"></p>
-            <p>電話:<input type="text" name="phone"></p>
-            <p>e-mail:<input type="text" name="email"></p>
-            <p>地址:<input type="text" name="area"></p>
-            <p>生日:<input type="text" name="birthday"></p>
-          </form>
-         <button>重填</button>
-          <button>送出</button>
-          </div>
+
+<div class="signupform">
+	<h1 style="color: black;">會員註冊</h1>
+		<div class="container">
+			<!-- main content -->
+			<div class="agile_info">
+				<div class="w3l_form">
+					<div class="left_grid_info">
+						<img src="images/left.png" alt="" />
+					</div>
+				</div>
+				<div class="w3_info">
+					<h2>請完整填寫以下申請資料</h2>
+					<p></p>
+						<form action="#" method="post">
+							<div class="input-group">
+								<span><i class="fa fa-user" aria-hidden="true"></i></span>
+								<input type="text" placeholder="Full Name" required=""> 
+							</div>
+							<div class="input-group">
+								<span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+								<input type="email" placeholder="Email" required=""> 
+							</div>
+							<div class="input-group">
+								<span><i class="fa fa-phone" aria-hidden="true"></i></span>
+								<input type="text" placeholder="Contact Number" required="">
+							</div>
+							<div class="input-group">
+								<span><i class="fa fa-lock" aria-hidden="true"></i></span>
+								<input type="Password" placeholder="Password" required="">
+							</div>        
+								<button class="btn btn-danger btn-block" type="submit">Sign Up</button >                
+						</form>
+					<!-- <p class="account">已經有帳號了?<a href="#">Login</a></p> -->
+				</div>
 			</div>
+			<!-- //main content -->
 		</div>
+		<!-- footer -->
+		<!-- <div class="footer">
+			<p>&copy; 2018 Estate Register form. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="blank">W3layouts</a></p>
+		</div> -->
+		<!-- footer -->
+</div>
+	
 </body>
 </html>
