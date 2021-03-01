@@ -2,7 +2,7 @@
     margin-top: 150px;
 }
 .intro__area{
-    background-color:linen;
+    background-color:#fff;
     font-size: 24px;
     height: 350px;
 }
@@ -29,7 +29,7 @@
 } */
 .figure__area{
     text-align: center;
-    background-color:moccasin;
+    background-color:#fff;
     height: 350px;
 }
 .figp{
@@ -39,11 +39,11 @@
 
 }
 .figw{
-    background-color: lightsteelblue;
+    background-color: #fff;
     line-height: 200%;
 }
 .link__area{
-    background-color:powderblue;
+    background-color:#fff;
     text-align: center;
 }
 .link__area a:link{

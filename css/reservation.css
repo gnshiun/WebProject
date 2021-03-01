@@ -2,7 +2,7 @@
     margin-top: 150px;
 }
 .reservation__area{
-    background-color:thistle;
+    background-color:#fff;
     line-height: 200%;
     text-align: center;
 }
@@ -17,7 +17,7 @@
     color: rgb(170, 170, 170);
 }
 .pet__area{
-    background-color:  cornsilk;
+    background-color:  #fff;
     line-height: 200%;
     text-align: center;
 }
